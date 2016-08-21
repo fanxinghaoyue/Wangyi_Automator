@@ -14,7 +14,7 @@ public class PageNavigetion
     public UiObject getReadTab()
     {
         return UiObjectHelper.getUiObjectByIdAndInstanceIndex(
-                "com.netease.newsreader.activity:id/biz_navi_tab", 1);
+                "com.netease.newsreader.activity:id/ry", 1);
     }
 
     /*
@@ -23,7 +23,7 @@ public class PageNavigetion
     public UiObject getMyTab() throws UiObjectNotFoundException
     {
         return UiObjectHelper.getUiObjectByIdAndInstanceIndex(
-                "com.netease.newsreader.activity:id/biz_navi_tab", 4);
+                "com.netease.newsreader.activity:id/ry", 4);
     }
 
     /*
@@ -32,7 +32,7 @@ public class PageNavigetion
     public UiObject getNewsTab() throws UiObjectNotFoundException
     {
         return UiObjectHelper.getUiObjectByIdAndInstanceIndex(
-                "com.netease.newsreader.activity:id/biz_navi_tab", 0);
+                "com.netease.newsreader.activity:id/ry", 0);
     }
 
     /*

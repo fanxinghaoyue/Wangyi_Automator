@@ -15,7 +15,7 @@ public class PageNewsDetail
     public UiObject getMoreTextView()
     {
         return UiObjectHelper.getUiObjectByResourceId(
-                "com.netease.newsreader.activity:id/biz_newspage_menu_more");
+                "com.netease.newsreader.activity:id/az7");
     }
 
     /*

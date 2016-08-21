@@ -22,16 +22,13 @@ public class BaiscTeatCase extends UiAutomatorTestCase
          * */
         //Runtime.getRuntime()
         //        .exec("am start -n" + packageName + "/" + activityName);
-        Thread.sleep(2000);
-        pm = new PageManager();
-        Thread.sleep(1000);
-        if (isNeedLogin)
-        {
-            pm.getPageNavigetion().goToMySettingsTab();
-            pm.getPageMy().clickLoginImageView();
-            pm.getPageLogin().login("robotum2016@163", "uiautomator");
-        }
-
+        //        Thread.sleep(1000);
+        //        if (isNeedLogin)
+        //        {
+        //            pm.getPageNavigetion().goToMySettingsTab();
+        //            pm.getPageMy().clickLoginImageView();
+        //            pm.getPageLogin().login("robotum2016@163", "uiautomator");
+        //        }
     }
 
 }

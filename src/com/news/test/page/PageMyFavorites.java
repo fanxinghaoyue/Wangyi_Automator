@@ -13,7 +13,7 @@ public class PageMyFavorites
     public UiObject getTitleTV(int index)
     {
         return UiObjectHelper.getUiObjectByIdAndInstanceIndex(
-                "com.netease.newsreader.activity:id/title", index);
+                "com.netease.newsreader.activity:id/cg", index);
     }
 
     /*

@@ -10,7 +10,7 @@ public class PageNews
     public UiObject getNewsTitle(int index)
     {
         return UiObjectHelper.getUiObjectByIdAndInstanceIndex(
-                "com.netease.newsreader.activity:id/title", index);
+                "com.netease.newsreader.activity:id/cg", index);
 
     }
 

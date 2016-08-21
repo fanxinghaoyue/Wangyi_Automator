@@ -6,6 +6,8 @@ call ant build
 echo adb push .\bin\UiAutomator.jar /sdcard/
 adb push .\bin\UiAutomator.jar /sdcard/
 
+adb shell am force-stop com.netease.newsreader.activity
+
 rem ==============================================
 rem Æô¶¯Activity
 echo am start com.netease.newsreader.activity/com.netease.nr.biz.ad.AdActivity

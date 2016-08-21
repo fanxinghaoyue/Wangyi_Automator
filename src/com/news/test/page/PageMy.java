@@ -19,8 +19,7 @@ public class PageMy
 
     public UiObject getPageMy()
     {
-        return UiObjectHelper.getUiObjectByResourceId(
-                "com.netease.newsreader.activity:id/biz_pc_profile_collect");
+        return UiObjectHelper.getUiObjectByText("收藏");
     }
 
     /*
