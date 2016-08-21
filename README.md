@@ -1,5 +1,5 @@
 # Wangyi_Automator
-使用uiautomator做自动话测试的例子
+使用uiautomator做自动化测试的例子
 
 # 编译，运行
 1.修改local.properties中sdk的路径
