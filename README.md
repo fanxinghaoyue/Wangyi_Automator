@@ -7,6 +7,7 @@
 3.adb push .\bin\UiAutomator.jar /sdcard/
 4.adb shell uiautomator runtest /sdcard/UiAutomator.jar -c com.news.test.testcases.Testcases1
 
+![image](https://github.com/fanxinghaoyue/Wangyi_Automator/tree/master/screenshot/logcat-result.png)
 
 #参考
 https://github.com/romanbilis/wangyiuiautomator.git
