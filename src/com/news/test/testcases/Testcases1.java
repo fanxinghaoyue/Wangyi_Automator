@@ -25,11 +25,13 @@ public class Testcases1 extends BaiscTeatCase
     protected void setup() throws Exception
     {
         //需要在登录下进行，所有设置为true
-        super.setup(true);
+        super.setup(false);
     }
 
     public void testCases1()
     {
+        assertEquals("get pm is null", false, pm == null);
+
         //登录后需跳转到新闻页面
         pm.getPageNavigetion().goToNewsTab();
 

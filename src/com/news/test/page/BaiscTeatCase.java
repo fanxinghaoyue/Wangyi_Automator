@@ -11,7 +11,7 @@ public class BaiscTeatCase extends UiAutomatorTestCase
 
     /*通过aapt dump badging apkname获得app启动类和包名
      * */
-    String packageName = "com.netease.nr";
+    String packageName = "com.netease.newsreader.activity";
     String activityName = "com.netease.nr.biz.ad.AdActivity";
 
     protected void setup(boolean isNeedLogin) throws Exception
@@ -20,8 +20,9 @@ public class BaiscTeatCase extends UiAutomatorTestCase
 
         /*通过am start命令启动被测试应用，这样可以确保在不同的手机或者os上用统一的代码启动测试应用；
          * */
-        Runtime.getRuntime()
-                .exec("am start -n" + packageName + "/" + activityName);
+        //Runtime.getRuntime()
+        //        .exec("am start -n" + packageName + "/" + activityName);
+        Thread.sleep(2000);
         pm = new PageManager();
         Thread.sleep(1000);
         if (isNeedLogin)
